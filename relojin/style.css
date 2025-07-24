@@ -1,0 +1,33 @@
+* { 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+body {
+   min-height: 100vh;
+   background: linear-gradient(135deg, #135077, #42035f);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.reloj {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   color: #fff;
+   background: linear-gradient(135deg, #ff0000, #0000ff);
+   border: 10px solid orange;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   user-select: none;
+
+}
+.reloj p {
+   font-size: 35px;
+   gap: 4px;
+   margin-bottom: 10px;
+   display: flex;
+}
